@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kopi Studio 9</title>
+  <script src="https://kit.fontawesome.com/1c256bdeea.js" crossorigin="anonymous"></script>
+  <!-- CSS -->
+  <link href="style.css" rel="stylesheet" />
+  <!-- Font Poppins -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&amp;family=Work+Sans:wght@300;400;500;700&amp;display=swap"
+    rel="stylesheet" />
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/3f9eda8ca0.js" crossorigin="anonymous"></script>
+  <!-- Animate AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!-- Swiper JS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.3.1/swiper-bundle.css" integrity="sha512-cAtZ0Luj6XlQ7YGgi5mPW0szI2z/2+btPjOqVEqK3z4h1/qojUwvQyTcocgKKOFv8noUFH5GOuhheX7PeDwwPA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="navbar-logo">Kopi Studio 9</h1>
+      <input id="menu-toggle" type="checkbox" />
+      <label class="menu-button-container" for="menu-toggle">
+        <div class="menu-button"></div>
+      </label>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#benefit">Benefit</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="hero-container" id="home">
+      <div class="hero-items">
+        <h1>
+          For a delicious <br />
+          and refreshing <br />
+          coffee experience, <br />
+          every day.
+        </h1>
+        <button>Order Now</button>
+      </div>
+      <div class="hero-img">
+        <img src="img/coffee-main.png" alt="" />
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="about-container" id="about">
+      <h1 style="color: #2d2424">
+        About Us
+        <div class="line" style="
+              margin-left: 25px;
+              height: 3px;
+              width: 50px;
+              background-color: #ffff;
+            "></div>
+      </h1>
+      <div class="about-items">
+        <aside>
+          <img src="img/coffeeshop-place.jpg" alt="" class="about-image" />
+        </aside>
+        <article>
+          <div class="about-description">
+            <p>
+              Established in 2018, Kopi Studio 9 is a passionate coffee
+              startups aiming to brew the best specialty coffee for our
+              customer. As our name derived from the word forest, we aim to
+              grow fast, strong, tall and bring life to our surrounding. We
+              want our existence to increase coffee quality for our community.
+              <br />
+              <br />
+              Leveraging network and experience, we are using the latest tech
+              for our tools and bean blend. Directly from the selected farmer,
+              high-quality beans are processed and roasted to perfection by
+              ourselves then passed on to our skilled barista, excitedly
+              prepare the cup of happiness to be served to you especially.
+            </p>
+            <button class="about-button">Read More</button>
+          </div>
+        </article>
+      </div>
+      <div class="about-location">
+        <img
+          src="https://img.icons8.com/external-justicon-flat-justicon/64/external-google-maps-social-media-justicon-flat-justicon.png"
+          alt="external-google-maps-social-media-justicon-flat-justicon" />
+        <div class="about-location-description">
+          <h3>Location</h3>
+          <p>Jl. Bendungan Sigura-gura No. 29 Dinoyo, Lowokwaru, Malang</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section Menu -->
+    <div class="menu-container" id="menu">
+      <h1>
+        OUR MENU
+        <div class="line" style="height: 3px; width: 220px; background-color: #ffff"></div>
+      </h1>
+      <div class="menu-items-all">
+        <div class="swipe-left">
+          <img src="./img/chevron-left.png" alt="" width="70" />
+        </div>
+        <div class="swiper">
+          <div class="menu-item swiper-wrapper">
+            <div class="item-menu swiper-slide">
+              <div class="item-menu-image">
+                <img src="./img/dcream.jpg" alt="" />
+              </div>
+              <div class="item-menu-description">
+                <h3>D'Cream</h3>
+                <p>
+                  Drink with a combination of coffee and fresh milk to lift
+                  your mood.
+                </p>
+              </div>
+            </div>
+
+            <div class="item-menu swiper-slide">
+              <div class="item-menu-image">
+                <img src="./img/greentea.jpg" alt="" />
+              </div>
+              <div class="item-menu-description">
+                <h3>Green Tea</h3>
+                <p>
+                  Drink with a mixture of sweet green tea to refresh your day.
+                </p>
+              </div>
+            </div>
+
+            <div class="item-menu swiper-slide">
+              <div class="item-menu-image">
+                <img src="./img/thaitea.jpg" alt="" />
+              </div>
+              <div class="item-menu-description">
+                <h3>Thai Tea</h3>
+                <p>
+                  Drink with a mixture of sweet thai tea to refresh your day.
+                </p>
+              </div>
+            </div>
+
+            <div class="item-menu swiper-slide">
+              <div class="item-menu-image">
+                <img src="./img/blacktea.jpg" alt="" />
+              </div>
+              <div class="item-menu-description">
+                <h3>Black Tea</h3>
+                <p>
+                  Drink with a mixture of sweet thai tea to refresh your day.
+                </p>
+              </div>
+            </div>
+
+            <div class="item-menu swiper-slide">
+              <div class="item-menu-image">
+                <img src="./img/jasminetea.jpg" alt="" />
+              </div>
+              <div class="item-menu-description">
+                <h3>Jasmine Tea</h3>
+                <p>
+                  Drink with a mixture of sweet thai tea to refresh your day.
+                </p>
+              </div>
+            </div>
+
+            <div class="item-menu swiper-slide">
+              <div class="item-menu-image">
+                <img src="./img/chocolate.jpg" alt="" />
+              </div>
+              <div class="item-menu-description">
+                <h3>Chocolate</h3>
+                <p>
+                  Drink with a mixture of sweet thai tea to refresh your day.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swipe-right">
+          <img src="./img/chevron-left.png" alt="" width="70" style="transform: rotate(180deg)" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Benefit -->
+    <div class="benefit-container" id="benefit">
+      <h1>
+        TAKE US WITH YOU
+        <div class="line" style="height: 3px; width: 250px; background-color: #797160"></div>
+      </h1>
+
+      <div class="benefit-items">
+        <div class="item-benefit first-item">
+          <img
+            src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/B85C38/external-catering-party-flatart-icons-outline-flatarticons.png"
+            alt="external-catering-party-flatart-icons-outline-flatarticons" />
+          <div class="item-benefit-description">
+            <h3>Catering</h3>
+            <p>
+              You can bring Kopi Studio 9 to your office events or personal
+              celebrations
+            </p>
+          </div>
+        </div>
+        <div class="item-benefit sec-item">
+          <img
+            src="https://img.icons8.com/external-kmg-design-detailed-outline-kmg-design/64/B85C38/external-coffee-pack-coffee-shop-kmg-design-detailed-outline-kmg-design.png"
+            alt="external-coffee-pack-coffee-shop-kmg-design-detailed-outline-kmg-design" />
+          <div class="item-benefit-description">
+            <h3>Coffee Pack</h3>
+            <p>
+              In 200g packaging, you can enjoy specialty Arabica Kopi Studio 9
+              coffee at home.
+            </p>
+          </div>
+        </div>
+        <div class="item-benefit third-item">
+          <img src="https://img.icons8.com/ios/50/B85C38/t-shirt--v1.png" alt="t-shirt--v1" />
+          <div class="item-benefit-description">
+            <h3>Merchandise</h3>
+            <p>
+              Various choices of merchandise to show your love (or madness)
+              for the world of coffee
+            </p>
+          </div>
+        </div>
+        <div class="item-benefit four-item">
+          <img src="https://img.icons8.com/ios-filled/50/B85C38/gift--v1.png" alt="gift--v1" />
+          <div class="item-benefit-description">
+            <h3>Hampers</h3>
+            <p>
+              Send a box containing coffee beans, his favorite drink and a
+              coffee mug for your special someone.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Socmed -->
+    <div class="socmed-container" id="contact">
+      <div class="socmed-title">
+        <p>Get Up and Close Personal</p>
+        <h1>
+          CONTACT US
+          <div class="line" style="height: 3px; width: 250px; background-color: #ffffff"></div>
+        </h1>
+      </div>
+
+      <div class="socmed-items">
+        <div class="socmed">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0,0,256,256">
+            <g fill="#2d2424" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+              stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+              font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+              <g transform="scale(10.66667,10.66667)">
+                <path
+                  d="M8,3c-2.757,0 -5,2.243 -5,5v8c0,2.757 2.243,5 5,5h8c2.757,0 5,-2.243 5,-5v-8c0,-2.757 -2.243,-5 -5,-5zM8,5h8c1.654,0 3,1.346 3,3v8c0,1.654 -1.346,3 -3,3h-8c-1.654,0 -3,-1.346 -3,-3v-8c0,-1.654 1.346,-3 3,-3zM17,6c-0.55228,0 -1,0.44772 -1,1c0,0.55228 0.44772,1 1,1c0.55228,0 1,-0.44772 1,-1c0,-0.55228 -0.44772,-1 -1,-1zM12,7c-2.757,0 -5,2.243 -5,5c0,2.757 2.243,5 5,5c2.757,0 5,-2.243 5,-5c0,-2.757 -2.243,-5 -5,-5zM12,9c1.654,0 3,1.346 3,3c0,1.654 -1.346,3 -3,3c-1.654,0 -3,-1.346 -3,-3c0,-1.654 1.346,-3 3,-3z">
+                </path>
+              </g>
+            </g>
+          </svg>
+          <h3>Instagram</h3>
+          <p>@kopistudio9</p>
+        </div>
+        <div class="socmed">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0,0,256,256" style="fill: #2d2424">
+            <g fill="#2d2424" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+              stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+              font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+              <g transform="scale(5.12,5.12)">
+                <path
+                  d="M41,4h-32c-2.76,0 -5,2.24 -5,5v32c0,2.76 2.24,5 5,5h32c2.76,0 5,-2.24 5,-5v-32c0,-2.76 -2.24,-5 -5,-5zM37,19h-2c-2.14,0 -3,0.5 -3,2v3h5l-1,5h-4v15h-5v-15h-4v-5h4v-3c0,-4 2,-7 6,-7c2.9,0 4,1 4,1z">
+                </path>
+              </g>
+            </g>
+          </svg>
+          <h3>Facebook</h3>
+          <p>Kopi Studio 9</p>
+        </div>
+        <div class="socmed">
+          <svg xmlns="http://www.w3.org/2000/svg" style="fill: #2d2424" x="0px" y="0px" viewBox="0 0 50 50">
+            <path
+              d="M41,4H9C6.243,4,4,6.243,4,9v32c0,2.757,2.243,5,5,5h32c2.757,0,5-2.243,5-5V9C46,6.243,43.757,4,41,4z M37.006,22.323 c-0.227,0.021-0.457,0.035-0.69,0.035c-2.623,0-4.928-1.349-6.269-3.388c0,5.349,0,11.435,0,11.537c0,4.709-3.818,8.527-8.527,8.527 s-8.527-3.818-8.527-8.527s3.818-8.527,8.527-8.527c0.178,0,0.352,0.016,0.527,0.027v4.202c-0.175-0.021-0.347-0.053-0.527-0.053 c-2.404,0-4.352,1.948-4.352,4.352s1.948,4.352,4.352,4.352s4.527-1.894,4.527-4.298c0-0.095,0.042-19.594,0.042-19.594h4.016 c0.378,3.591,3.277,6.425,6.901,6.685V22.323z">
+            </path>
+          </svg>
+          <h3>Tiktok</h3>
+          <p>@kopistudio9</p>
+        </div>
+        <div class="socmed" id="socmed-email">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0,0,256,256">
+            <g fill="#2d2424" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+              stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+              font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+              <g transform="scale(5.12,5.12)">
+                <path
+                  d="M12,23.403v-0.013v-13.001l-0.12,-0.089h-0.01l-2.73,-2.02c-1.67,-1.24 -4.05,-1.18 -5.53,0.28c-0.99,0.98 -1.61,2.34 -1.61,3.85v3.602zM38,23.39v0.013l10,-7.391v-3.602c0,-1.49 -0.6,-2.85 -1.58,-3.83c-1.46,-1.457 -3.765,-1.628 -5.424,-0.403l-2.876,2.123l-0.12,0.089zM14,24.868l10.406,7.692c0.353,0.261 0.836,0.261 1.189,0l10.405,-7.692v-13.001l-11,8.133l-11,-8.133zM38,25.889v15.111c0,0.552 0.448,1 1,1h6.5c1.381,0 2.5,-1.119 2.5,-2.5v-21.003zM12,25.889l-10,-7.392v21.003c0,1.381 1.119,2.5 2.5,2.5h6.5c0.552,0 1,-0.448 1,-1z">
+                </path>
+              </g>
+            </g>
+          </svg>
+          <h3>Email</h3>
+          <p>kopistudio9@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-item">
+        <div class="footer-left">
+          <h1>
+            Kopi Studio 9
+            <div class="line" style="
+                  height: 8px;
+                  width: 250px;
+                  margin: 10px 0 10px 0;
+                  background-color: #ffffff;
+                "></div>
+          </h1>
+          <span>
+            <img src="./img/icon-location.png" alt="" width="35" height="35" />
+            <p>Jl. Bendungan Sigura-gura No. 29 Dinoyo, Lowokwaru, Malang</p>
+          </span>
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0,0,256,256" width="35">
+              <g fill="#2d2424" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                style="mix-blend-mode: normal; fill: #e0c097">
+                <g transform="scale(5.12,5.12)">
+                  <path
+                    d="M12,23.403v-0.013v-13.001l-0.12,-0.089h-0.01l-2.73,-2.02c-1.67,-1.24 -4.05,-1.18 -5.53,0.28c-0.99,0.98 -1.61,2.34 -1.61,3.85v3.602zM38,23.39v0.013l10,-7.391v-3.602c0,-1.49 -0.6,-2.85 -1.58,-3.83c-1.46,-1.457 -3.765,-1.628 -5.424,-0.403l-2.876,2.123l-0.12,0.089zM14,24.868l10.406,7.692c0.353,0.261 0.836,0.261 1.189,0l10.405,-7.692v-13.001l-11,8.133l-11,-8.133zM38,25.889v15.111c0,0.552 0.448,1 1,1h6.5c1.381,0 2.5,-1.119 2.5,-2.5v-21.003zM12,25.889l-10,-7.392v21.003c0,1.381 1.119,2.5 2.5,2.5h6.5c0.552,0 1,-0.448 1,-1z">
+                  </path>
+                </g>
+              </g>
+            </svg>
+            <p>kopistudio9@gmail.com</p>
+          </span>
+        </div>
+        <div class="footer-socmed">
+          <h3>Social Media</h3>
+          <ul class="footer-socmed-list">
+            <li>Instagram</li>
+            <li>Facebook</li>
+            <li>Tiktok</li>
+            <li>Email</li>
+          </ul>
+        </div>
+        <div class="footer-menu">
+          <h3>Our Menu</h3>
+          <div class="footer-menu-list">
+            <ul class="footer-menu-left">
+              <li>Black Tea</li>
+              <li>Green Tea</li>
+              <li>D'Cream</li>
+            </ul>
+            <ul class="footer-menu-right">
+              <li>Thai Tea</li>
+              <li>Jasmine Tea</li>
+              <li>Chocolate</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <h2 class="footer-licensed">
+        © 2023 Kopi Studio 9 Group. All rights reserved.
+      </h2>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.3.1/swiper-bundle.min.js" integrity="sha512-2w85qGM9apXW9EgevsY4S4fnJIUz6U6mXlLbgDKphBuwh7jPQNad70Ll5W+pcIrJ6rIMGpjP0CxYGQwKsynIaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
